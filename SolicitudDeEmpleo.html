@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		Código hecho por Jesús Guillermo Garcia Murillo.
+		Agosto de 2019
+	-->
+    <head>
+        <title>Solicitud de empleo</title>
+		<meta charset=UTF-8″ />
+    </head>
+    <body background="fondo.jpg">
+	
+		<!-- El archivo a continuación citado: "agrega.php", no fué terminado, y por ende, no fué subido. -->
+		<form enctype="multipart/form-data" action="agrega.php" method="post"><table width="500" border="1">
+            <img  width="400" height="60" src="logoEmp.png" >
+			
+					
+						
+					
+            <table width="100%">
+                <tr>
+                    <td>
+                       puesto que solicita:<input  name="Nombre" type="text" id="Nombre" size="30">
+                    </td>
+                    <td>
+                       fecha:<input  name="Nombre" type="text" id="Nombre" size="30">
+                    </td>
+                    <td>
+                       <a href=""><img width="160" height="180" src="marco.jpg" ><br><input type="hidden" name="MAX_FILE_SIZE" value="2000000" />
+						<input type="file" name="imagen" id="imagen" /></a>
+                    </td
+					
+                
+                </tr>
+            </table>
+            
+        <table style="background:rgba(161, 172, 11, 0.288)" width="100%" border="1" align="left">
+            <tr>
+                <td style="background-color:rgba(0, 255, 255, 0.388)" colspan="6" align="center">DATOS PERSONALES</td>
+            </tr>
+            <tr>
+                <td>Apellido Paterno</td>
+                <td>Apellido Materno</td>
+                <td>Nombre(s)</td>
+                <td colspan="3">Edad en Años</td>
+        </tr>
+        
+        <tr>
+            <td ><label >
+					<input  name="Apellido" type="text" id="Apellido" size="30">
+				</label></td>
+            <td><label>
+					<input name="Nombre" type="text" id="Nombre" size="30">
+				</label></td>
+            <td><label>
+					<input name="Nombre" type="text" id="Nombre" size="30">
+                </label></td>
+                <td colspan="3"><label>
+                        <input name="Nombre" type="text" id="Nombre" size="80">
+                    </label></td>
+        </tr>
+        <tr>
+                <td>Direccion</td>
+                <td>Colonia</td>
+                <td>codigo postal</td>
+                <td>ciudad</td>
+                <td>Telefono</td>
+                <td>Sexo</td>
+        </tr>
+        <tr>
+                <td><label>
+                        <input name="Nombre" type="text" id="Nombre" size="30">
+                    </label></td>
+                <td><label>
+                        <input name="Nombre" type="text" id="Nombre" size="30">
+                    </label></td>
+                <td><label>
+                        <input name="Nombre" type="text" id="Nombre" size="30">
+                    </label></td>
+                    <td><label>
+                            <input name="Nombre" type="text" id="Nombre" size="">
+                        </label></td>
+                        <td><label>
+                                <input name="Nombre" type="text" id="Nombre" size="">
+                            </label></td>
+                            <td><label>
+                                    Masculino<input type="checkbox" name="Masculino" >
+                                    Femenino<input type="checkbox" name="Femenino">
+                                </label></td>
+            </tr>
+            <tr>
+                    <td colspan="2">Lugar de nacimiento</td>
+                    <td colspan="2">Fecha de nacimiento</td>
+                    <td colspan="2">Nacionalidad</td> 
+            </tr>
+            <tr>
+                    <td colspan="2"> <label>
+                            <input name="Nombre" type="text" id="Nombre" size="69">
+                        </label></td>
+                    <td colspan="2"><label>
+                            <input name="Nombre" type="text" id="Nombre" size="59">
+                        </label></td>
+                    <td ><label>
+                            M<input type="checkbox" name="Mexicana" ></td>
+                                   <td> E<input type="checkbox" name="Extranjera" >
+                        </label></td>
+                        </tr>
+
+                        <tr>
+                                <td colspan="4">Vive con</td>
+                                <td >Estatura</td>
+                                <td >Peso</td>
+                        </tr>
+                        
+                        <tr>
+                             
+                                    <td><label> <input type="checkbox" name="Padres" >Sus padres
+                                </td>
+                                <td> <input type="checkbox" name="Familia" >Familia
+                                </td>
+                                <td> <input type="checkbox" name="Parientes" >Parientes
+                                </td>
+                                <td> <input type="checkbox" name="Solo" >Solo
+                                    </label></td>
+                                
+                                <td ><label>
+                                        <input name="Nombre" type="text" id="Nombre" >
+                                    </label></td>
+                                    <td ><label>
+                                            <input name="Nombre" type="text" id="Nombre" >
+                                        </label></td>
+                        </tr>
+                        
+                            
+                        
+                                <tr>
+                                <td colspan="6">Estado civil</td>
+                                
+                            </tr>
+				<tr>
+                        
+                            <td colspan="2"><label>
+                                    <input type="checkbox" name="Padres" >soltero</label></td>
+                                
+                                    <td colspan="2"><label><input type="checkbox" name="Familia" >Casado
+                                
+                                    </label></td>
+                                    
+                                    <td colspan="2"><label>
+                                    otro(Explique)<input name="Nombre" type="text" id="Nombre" size="50" >
+                                </label></td></tr>
+            
+        </table>
+
+
+
+        <table style="background:rgba(161, 172, 11, 0.288)" border="1" width="100%">
+<tr>
+    <td colspan="5" align="center" style="background:rgba(0, 255, 255, 0.388)">
+       DOCUMENTACION
+    </td>
+</tr>
+<tr>
+    <td>Reg.Fed.Contribuyentes</td>
+    <td>C.U.R.P.</td>
+    <td>Afiliacion al seguro social No.</td>
+    <td>Cartilla Servicio Militar No.</td>
+    <td>Pasaporte No./Cartilla No.</td>
+</tr>
+<tr>
+        <td><label>
+                <input name="Nombre" type="text" id="Nombre" size="30">
+            </label></td>
+        <td><label>
+                <input name="Nombre" type="text" id="Nombre" size="30">
+            </label></td>
+        <td><label>
+                <input name="Nombre" type="text" id="Nombre" size="30">
+            </label></td>
+            <td><label>
+                    <input name="Nombre" type="text" id="Nombre" size="30">
+                </label></td>
+                <td><label>
+                        <input name="Nombre" type="text" id="Nombre" size="30">
+                    </label></td>
+
+                    <tr>
+                            <td colspan="2">Tiene licencia de manejo</td>
+                            <td colspan="2">Clase y Numero de licencia</td>
+                            <td colspan="2">Si es Extranjero que documento le permite trabajar en el pais</td>
+                            
+                        </tr>
+                        <tr>
+                                <td colspan="1">
+                                        <label>
+                                                <input type="checkbox" name="Padres" >No</label>
+                                    </td>
+                                    <td colspan="1">
+                                            <label>
+                                                    <input type="checkbox" name="Padres" >Si</label>
+                                        </td>
+                                <td colspan="2"><label>
+                                        <input name="Nombre" type="text" id="Nombre" size="65">
+                                    </label></td>
+                                <td colspan="2"><label>
+                                        <input name="Nombre" type="text" id="Nombre" size="50">
+                                    </label></td>
+                                    
+        </table>
+        <table style="background:rgba(161, 172, 11, 0.288)" border="1" width="100%">
+                <tr>
+                    <td colspan="6" align="center" style="background: rgba(0, 255, 255, 0.388)">
+                       ESTADO DE SALUD Y HABITOS PERSONALES
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">Actualmente ¿Como considera su estado de salud?</td>
+                    <td colspan="3">¿Padece alguna enfermedad cronica?</td>
+                </tr>
+                <tr>
+                        <td><label>
+                                <input type="checkbox" name="Padres" size="30">Bueno
+                            </label></td>
+                        <td><label>
+                                <input type="checkbox" name="Padres" size="30">Regular
+                            </label></td>
+                        <td><label>
+                                <input type="checkbox" name="Padres" size="30">Malo
+                            </label></td>
+                            <td><label>
+                                    <input type="checkbox" name="Padres" size="30">No
+                                </label></td>
+                                
+                                    <td><label>
+                                            <input type="checkbox" name="Padres" size="30">Si
+                                        </label></td>
+                                        <td><label>
+                                        ¿Cual?<input name="Nombre" type="text" id="Nombre" size="30">
+                                    </label></td>
+                
+                                    <tr>
+                                            <td colspan="2">¿Que deporte practica?</td>
+                                            <td colspan="2">¿pertenece a algun club social o deportivo?</td>
+                                            <td colspan="2">¿Cual es su pasatiempo favorito</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                                <td colspan="2">
+                                                        <label>
+                                                                <input name="Nombre" type="text" id="Nombre" size="30">
+                                                    </td>
+                                                    <td colspan="2">
+                                                            <label>
+                                                                    <input name="Nombre" type="text" id="Nombre" size="30">
+                                                        </td>
+                                                <td colspan="2"><label>
+                                                        <input name="Nombre" type="text" id="Nombre" size="65">
+                                                    </label></td></tr>
+                                                    <tr>
+                                                            <td colspan="6">¿Cual es su meta en la vida?</td>
+                                
+                                                        </tr>
+                                                        <tr>
+                                                                <td colspan="2">
+                                                                        <label>
+                                                                                <input name="Nombre" type="text" id="Nombre" size="80">
+                                                                    </td>
+                                                                    
+                                                                    </label></td></tr>
+
+                                                                    <table style="background:rgba(11, 172, 51, 0.493)" border="1" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" style="background: rgba(0, 255, 255, 0.388)"  colspan="5">DATOS FAMILIARES</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Nombre</td>
+                                                                        <td>Vive</td>
+                                                                        <td>Finado</td>
+                                                                        <td>Direccion</td>
+                                                                        <td>Ocupacion</td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                            <td><label>
+                                                                                    Padre<input name="Nombre" type="text" id="Nombre" size="50">
+                                                                        
+                                                                        
+                                                                        </label></td>
+                                                                            <td><input type="checkbox" name="Padres" size="30"></td>
+                                                                            <td><input type="checkbox" name="Padres" size="30"></td>
+                                                                            <td><input name="Nombre" type="text" id="Nombre" size="50"></td>
+                                                                            <td><input name="Nombre" type="text" id="Nombre" size="50"></td>
+
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                            <td><label>
+                                                                                    Madre<input name="Nombre" type="text" id="Nombre" size="50">
+                                                                        
+                                                                        
+                                                                        </label></td>
+                                                                            <td><input type="checkbox" name="Padres" size="30"></td>
+                                                                            <td><input type="checkbox" name="Padres" size="30"></td>
+                                                                            <td><input name="Nombre" type="text" id="Nombre" size="50"></td>
+                                                                            <td><input name="Nombre" type="text" id="Nombre" size="50"></td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                            <td><label>
+                                                                                   Esposo(a)<input name="Nombre" type="text" id="Nombre" size="50">
+                                                                        
+                                                                        
+                                                                        </label></td>
+                                                                            <td><input type="checkbox" name="Padres" size="30"></td>
+                                                                            <td><input type="checkbox" name="Padres" size="30"></td>
+                                                                            <td><input name="Nombre" type="text" id="Nombre" size="50"></td>
+                                                                            <td><input name="Nombre" type="text" id="Nombre" size="50"></td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                            
+                                                                        
+                                                                        
+                                                                        </label></td>
+                                                                            <td > Nombres y edades de los hijos</td><td colspan="4"><label>
+                                                                                    <input name="Nombre" type="text" id="Nombre" size="140">
+                                                                            
+    
+                                                                        </tr>
+                                                                        
+                                                </table>
+                                                    
+                        </table>
+                        <table style="background:rgba(161, 172, 11, 0.288)" border="1" width="100%">
+                                <tr>
+                                    <td align="center" style="background: rgba(0, 255, 255, 0.388)"  colspan="5">Datos familiares</td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre de la escuela</td>
+                                    <td>fechas</td>
+                                    <td>años</td>
+                                    <td>Titulo recibido</td>
+                                    
+
+                                </tr>
+                                <tr>
+                                        <td><label>
+                                                Primaria<input name="Nombre" type="text" id="Nombre" size="50">
+                                    
+                                    
+                                    </label></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre" size="80"></td>
+                                        
+
+
+                                </tr>
+                                <tr>
+                                        <td><label>
+                                                Secundaria<input name="Nombre" type="text" id="Nombre" size="50">
+                                    
+                                    
+                                    </label></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre" size="80"></td>
+                                        
+
+
+                                </tr>
+                                <tr>
+                                        <td><label>
+                                                Preparatoria<input name="Nombre" type="text" id="Nombre" size="50">
+                                    
+                                    
+                                    </label></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre" size="80"></td>
+                                        
+
+                                </tr>
+                                <tr>
+                                        <td><label>
+                                                Profesional<input name="Nombre" type="text" id="Nombre" size="50">
+                                    
+                                    
+                                    </label></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre" size="80"></td>
+                                        
+
+                                </tr>
+                                <tr>
+                                        <td><label>
+                                                Comercial u otras<input name="Nombre" type="text" id="Nombre" size="50">
+                                    
+                                    
+                                    </label></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre"></td>
+                                        <td><input name="Nombre" type="text" id="Nombre" size="80"></td>
+                                        
+
+                                </tr>
+                                <tr>
+                                        
+                                    
+                                    
+                                    </label></td>
+                                        <td > Estudios que efectua en la actualidad</td><td colspan="4"><label>
+                                                <input name="Nombre" type="text" id="Nombre" size="140">
+                                        
+
+                                    </tr>
+                                    <tr>
+                                        
+                                    
+                                    
+                                        </label></td>
+                                            <td >¿Tiene credito pendiente INFONAVIT?</td><td colspan="4"><label>
+                                                    <input name="Nombre" type="text" id="Nombre" size="140">
+                                            
+    
+                                        </tr>
+                                    
+            </table>
+			
+			<input name="boton" type="submit" id="boton" value="Enviar">
+			
+		</form>
+    </body>
+</html>
